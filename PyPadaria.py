@@ -1,11 +1,11 @@
-print("Calculadora Simples")
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
-soma = a + b
-menos = a - b
-mult = a * b
-divisao = a / b
-print("Soma: " + str(soma))
-print("Subtração: "+ str(menos))
-print("Multiplicação: "+ str(mult))
-print("Divisão: " + str(divisao))
+print("Sistema de Pedido - Padaria")
+nome_cliente = input("Nome do cliente: ")
+nome_produto = input("Nome do produto: ")
+preco = int(input("Preço do produto: "))
+quantidade = int(input("Quantidade: "))
+total = preco * quantidade
+print("Cliente: "+str(nome_cliente))
+print("Produto: "+str(nome_produto))
+print("Preço do produto: "+str(preco))
+print("Quantidade: "+str(quantidade))
+print("Total a pagar: "+str(total))
